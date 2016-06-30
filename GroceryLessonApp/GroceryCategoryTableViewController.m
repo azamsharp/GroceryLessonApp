@@ -23,6 +23,7 @@
     
     // create the Grocery Category object
     GroceryCategory *groceryCategory = [[GroceryCategory alloc] init];
+    groceryCategory.groceryItems = [NSMutableArray array];
     groceryCategory.title = category;
     
     [_groceryCategoriesArray addObject:groceryCategory];
